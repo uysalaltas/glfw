@@ -46,6 +46,8 @@ project "GLFW"
 			"src/linux_joystick.c",
 			"src/posix_time.h",
 			"src/posix_time.c",
+			"src/posix_module.c",
+			"src/posix_poll.c",
 			"src/x11_init.c",
 			"src/x11_platform.h",
 			"src/x11_monitor.c",
