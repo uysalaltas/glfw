@@ -25,7 +25,6 @@ project "GLFW"
         "src/null_platform.h",
         "src/null_joystick.h",
         "src/null_init.c",
-
         "src/null_monitor.c",
         "src/null_window.c",
         "src/null_joystick.c",
@@ -39,16 +38,24 @@ project "GLFW"
 
         files
         {
-            "src/x11_init.c",
-            "src/x11_monitor.c",
-            "src/x11_window.c",
-            "src/xkb_unicode.c",
-            "src/posix_time.c",
-            "src/posix_thread.c",
-            "src/glx_context.c",
-            "src/egl_context.c",
-            "src/osmesa_context.c",
-            "src/linux_joystick.c"
+			"src/egl_context.h",
+			"src/egl_context.c",
+			"src/glx_context.h",
+			"src/glx_context.c",
+			"src/linux_joystick.h",
+			"src/linux_joystick.c",
+			"src/posix_time.h",
+			"src/posix_time.c",
+			"src/x11_init.c",
+			"src/x11_platform.h",
+			"src/x11_monitor.c",
+			"src/x11_window.c",
+			"src/xkb_unicode.h",
+			"src/xkb_unicode.c",
+			"src/posix_thread.h",
+			"src/posix_thread.c",
+			"src/osmesa_context.c",
+			"src/osmesa_context.h"
         }
 
         defines
